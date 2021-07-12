@@ -1,8 +1,8 @@
 use actix_web::{web, get, Error, HttpResponse};
 use http::StatusCode;
-use crate::utils::read_quotes_json::{read_quotes_json};
+use crate::utils::read_quotes_json::read_quotes_json;
 use crate::utils::types::{QuotesList, Quote};
-use serde::{Deserialize};
+use serde::Deserialize;
 
 #[derive(Deserialize)]
 struct AuthorEndpointParams {
