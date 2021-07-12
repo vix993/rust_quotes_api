@@ -14,6 +14,7 @@ Then you can run `cargo build`, `cargo check`, `cargo test` and `cargo run` in t
 #### Get a random quote
 
 Request -> `curl 127.0.0.1:8080/`
+<br>
 Response -> `{ "author": "Confucius", "quote":"Everything has beauty, but not everyone can see." }`
 
 
