@@ -2,6 +2,8 @@
 
 An api that will give you iconic quotes by famous authors and public figures.
 
+It was built using Actix-web and Rust.
+
 ## Instructions
 
 You can run the api by having rust and cargo [installed](https://doc.rust-lang.org/book/ch01-01-installation.html).
