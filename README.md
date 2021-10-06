@@ -16,11 +16,13 @@ Then you can run `cargo build`, `cargo check`, `cargo test` and `cargo run` in t
 Request -> `curl 127.0.0.1:8080/`
 <br>
 <br>
-Response ->
-```{
+Response:
+```
+{
       "author": "Confucius",
       "quote": "Everything has beauty, but not everyone can see."
-   }```
+}
+```
 
 
 ### /quotes
@@ -29,7 +31,21 @@ Response ->
 Request -> `curl 127.0.0.1:8080/quotes/`
 <br>
 <br>
-Response -> `{ "quotes": [ { "author": "Confucius", "quote":"Everything has beauty, but not everyone can see." }, { "author": "Farrah Gray", "quote":"Build your own dreams, or someone else will hire you to build theirs." }, ... ] }`
+Response:
+```
+{
+      "quotes": 
+            [ {
+                  "author": "Confucius",
+                  "quote":"Everything has beauty, but not everyone can see."
+            },
+            {
+                  "author": "Farrah Gray",
+                  "quote": "Build your own dreams, or someone else will hire you to build theirs."
+            },
+            ...
+            ] }
+```
 
 ### /quotes/{author}
 #### Get a list of quotes by the author or filter by string
