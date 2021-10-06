@@ -1,4 +1,4 @@
-# rust_quotes_api
+# Rusty Quotes
 
 An api that will give you iconic quotes by famous authors and public figures.
 
