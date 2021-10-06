@@ -34,8 +34,8 @@ Request -> `curl 127.0.0.1:8080/quotes/`
 Response:
 ```
 {
-      "quotes": 
-            [ {
+      "quotes": [
+            {
                   "author": "Confucius",
                   "quote":"Everything has beauty, but not everyone can see."
             },
@@ -44,7 +44,8 @@ Response:
                   "quote": "Build your own dreams, or someone else will hire you to build theirs."
             },
             ...
-            ] }
+       ]
+}
 ```
 
 ### /quotes/{author}
@@ -53,4 +54,18 @@ Response:
 Request -> `curl 127.0.0.1:8080/quotes/Albert Einstein` or `curl 127.0.0.1:8080/quotes/Albert`
 <br>
 <br>
-Response -> `{ "quotes": [ { "author": "Albert Einstein", "quote": "Strive not to be a success, but rather to be of value." }, { "author": " Albert Einstein", "quote": "A person who never made a mistake never tried anything new." } ] }`
+Response:
+```
+{
+      "quotes": [
+            {
+                  "author": "Albert Einstein",
+                  "quote": "Strive not to be a success, but rather to be of value."
+            },
+            {
+                  "author": " Albert Einstein",
+                  "quote": "A person who never made a mistake never tried anything new."
+            }
+       ]
+}
+```
