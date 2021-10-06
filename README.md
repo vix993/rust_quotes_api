@@ -16,7 +16,11 @@ Then you can run `cargo build`, `cargo check`, `cargo test` and `cargo run` in t
 Request -> `curl 127.0.0.1:8080/`
 <br>
 <br>
-Response -> `{ "author": "Confucius", "quote":"Everything has beauty, but not everyone can see." }`
+Response ->
+```{
+      "author": "Confucius",
+      "quote": "Everything has beauty, but not everyone can see."
+   }```
 
 
 ### /quotes
