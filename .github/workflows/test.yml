@@ -33,5 +33,3 @@ jobs:
       run: rustup target add wasm32-unknown-unknown
     - name: Run tests
       run: cargo test --all
-    - name: Run benchmark tests
-      run: cargo test --manifest-path node/Cargo.toml --features=runtime-benchmarks --all
