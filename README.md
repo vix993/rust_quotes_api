@@ -3,14 +3,15 @@
 An api that will give you iconic quotes by famous authors and public figures.
 
 It was built using Actix-web and Rust.
+## Status
+
+![example workflow](https://github.com/vix993/letmeask/actions/workflows/test_on_push.yml/badge.svg)
 
 ## Instructions
 
 You can run the api by having rust and cargo [installed](https://doc.rust-lang.org/book/ch01-01-installation.html).
 
 Then you can run `cargo build`, `cargo check`, `cargo test` and `cargo run` in the root directory.
-
-![example workflow](https://github.com/vix993/rust_quotes_api/actions/workflows/test.yml/badge.svg)
 
 ### /
 #### Get a random quote
