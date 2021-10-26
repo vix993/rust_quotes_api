@@ -10,6 +10,8 @@ You can run the api by having rust and cargo [installed](https://doc.rust-lang.o
 
 Then you can run `cargo build`, `cargo check`, `cargo test` and `cargo run` in the root directory.
 
+![example workflow](https://github.com/vix993/rust_quotes_api/actions/workflows/test.yml/badge.svg)
+
 ### /
 #### Get a random quote
 
